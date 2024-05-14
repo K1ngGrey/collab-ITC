@@ -10,10 +10,18 @@
 
 .btn-primary {
     background-color: #FF6666;
+    transition: 0.5s;
+    &:hover{
+        background-color: #f75353;
+    }
 }
 
 .btn-secondary {
     background-color: #6491E4;
+    transition: 0.5s;
+    &:hover{
+        background-color: #417be7;
+    }
 }
 
 .Customize{
